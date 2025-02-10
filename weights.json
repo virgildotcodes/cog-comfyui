@@ -56,8 +56,6 @@
     "leosamsHelloworldXL_helloworldXL60.safetensors",
     "ltx-video-2b-v0.9.1.safetensors",
     "ltx-video-2b-v0.9.safetensors",
-    "lumina_2.safetensors",
-    "lumina_2_model_bf16.safetensors",
     "magicmixReverie_v10.safetensors",
     "majicmixRealistic_v7.safetensors",
     "motionctrl.pth",
@@ -162,10 +160,7 @@
     "RealESRGAN_x4plus_anime_6B.pth",
     "RealESRGAN_x8.pth"
   ],
-  "TEXT_ENCODERS": [
-    "gemma_2_2b_fp16.safetensors",
-    "oldt5_xxl_fp8_e4m3fn_scaled.safetensors"
-  ],
+  "TEXT_ENCODERS": ["oldt5_xxl_fp8_e4m3fn_scaled.safetensors"],
   "CLIP": [
     "clip-vit-large-patch14",
     "clip_g.safetensors",
@@ -527,6 +522,7 @@
   "VAE": [
     "ae.safetensors",
     "cosmos_cv8x8x8_1.0.safetensors",
+    "flux1-dev.vae.safetensors",
     "hunyuan_video_vae_bf16.safetensors",
     "mochi/mochi_preview_vae_bf16.safetensors",
     "mochi_vae.safetensors",
@@ -577,13 +573,8 @@
     "mochi_preview_fp8_scaled.safetensors",
     "pixelwave_flux1Dev03.safetensors"
   ],
-  "PHOTOMAKER": [
-    "photomaker-v1.bin",
-    "photomaker-v2.bin"
-  ],
-  "INSTANTID": [
-    "instantid-ip-adapter.bin"
-  ],
+  "PHOTOMAKER": ["photomaker-v1.bin", "photomaker-v2.bin"],
+  "INSTANTID": ["instantid-ip-adapter.bin"],
   "INSIGHTFACE": [
     "antelopev2",
     "buffalo_l",
@@ -609,9 +600,7 @@
     "GPEN-BFR-512.onnx",
     "RestoreFormer.pth"
   ],
-  "MMDETS": [
-    "bbox/mmdet_anime-face_yolov3.pth"
-  ],
+  "MMDETS": ["bbox/mmdet_anime-face_yolov3.pth"],
   "SAMS": [
     "mobile_sam.pt",
     "sam_hq_vit_b.pth",
@@ -625,9 +614,7 @@
     "groundingdino_swinb_cogcoor.pth",
     "groundingdino_swint_ogc.pth"
   ],
-  "BERT-BASE-UNCASED": [
-    "bert-base-uncased"
-  ],
+  "BERT-BASE-UNCASED": ["bert-base-uncased"],
   "ULTRALYTICS": [
     "bbox/Eyes.pt",
     "bbox/face_yolov8m.pt",
@@ -664,9 +651,7 @@
     "layer_xl_transparent_conv.safetensors",
     "vae_transparent_decoder.safetensors"
   ],
-  "CLIPSEG": [
-    "models--CIDAS--clipseg-rd64-refined"
-  ],
+  "CLIPSEG": ["models--CIDAS--clipseg-rd64-refined"],
   "REMBG": [
     "isnet-anime.onnx",
     "isnet-general-use.onnx",
@@ -687,9 +672,7 @@
     "gligen_sd14_textbox_pruned.safetensors",
     "gligen_sd14_textbox_pruned_fp16.safetensors"
   ],
-  "DYNAMICRAFTER": [
-    "tooncrafter_512_interp-fp16.safetensors"
-  ],
+  "DYNAMICRAFTER": ["tooncrafter_512_interp-fp16.safetensors"],
   "ANIMATEDIFF_MODELS": [
     "animatediff_lightning_1step_comfyui.safetensors",
     "animatediff_lightning_1step_diffusers.safetensors",
@@ -768,12 +751,8 @@
     "sd3_medium_DYN_A40-b-1-1-1-h-512-1536-1024-w-512-1536-1024.engine",
     "sd3_medium_DYN_H100-b-1-1-1-h-512-1536-1024-w-512-1536-1024.engine"
   ],
-  "DIFFUSERS": [
-    "Kolors"
-  ],
-  "ULTRAPIXEL": [
-    "ultrapixel_t2i.safetensors"
-  ],
+  "DIFFUSERS": ["Kolors"],
+  "ULTRAPIXEL": ["ultrapixel_t2i.safetensors"],
   "INPAINT": [
     "big-lama.pt",
     "brushnet_random_mask_brushnet_ckpt_sdxl_v0.safetensors",
@@ -793,9 +772,7 @@
     "random_mask_brushnet_ckpt_sdxl_v0.safetensors",
     "segmentation_mask_brushnet_sdxl_v1.safetensors"
   ],
-  "STYLE_MODELS": [
-    "flux1-redux-dev.safetensors"
-  ],
+  "STYLE_MODELS": ["flux1-redux-dev.safetensors"],
   "SAM2": [
     "sam2.1_hiera_base_plus-fp16.safetensors",
     "sam2.1_hiera_base_plus.safetensors",
@@ -810,11 +787,6 @@
     "sam2_hiera_small.safetensors",
     "sam2_hiera_tiny.safetensors"
   ],
-  "RESWAPPER": [
-    "reswapper_128.onnx",
-    "reswapper_256.onnx"
-  ],
-  "NSFW_DETECTOR": [
-    "vit-base-nsfw-detector"
-  ]
+  "RESWAPPER": ["reswapper_128.onnx", "reswapper_256.onnx"],
+  "NSFW_DETECTOR": ["vit-base-nsfw-detector"]
 }
